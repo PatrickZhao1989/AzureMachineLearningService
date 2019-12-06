@@ -1,0 +1,40 @@
+{
+    "script": "train.py",
+    "framework": "Python",
+    "communicator": "None",
+    "target": "MLVM01",
+    "environment": {
+        "python": {
+            "userManagedDependencies": false,
+            "condaDependencies": {
+                "dependencies": [
+                    "python=3.6.2",
+                    "tensorflow=1.15",
+                    "numpy=1.16.2",
+                    {
+                        "pip": [
+                            "azureml-defaults"
+                        ]
+                    }
+                ]
+            }
+        },
+        "docker": {
+            "baseImage": "mcr.microsoft.com/azureml/base:0.2.4",
+            "enabled": true,
+            "baseImageRegistry": {
+                "address": null,
+                "username": null,
+                "password": null
+            }
+        }
+    },
+    "nodeCount": 1,
+    "history": {
+        "outputCollection": true,
+        "snapshotProject": false,
+        "directoriesToWatch": [
+            "logs"
+        ]
+    }
+}
