@@ -1,4 +1,4 @@
 {
-    "Id": "patrickmlw-exp1",
-    "Scope": "/subscriptions/ed871ef6-6ef0-4304-adff-958823b42857/resourceGroups/PatrickZhaoMachineLearning/providers/Microsoft.MachineLearningServices/workspaces/patrickmlws/projects/patrickmlw-exp1"
+    "Id": "exp1",
+    "Scope": "/subscriptions/d84d5666-c34b-4946-8687-d43cc3d695d3/resourceGroups/WS01221143-rg1/providers/Microsoft.MachineLearningServices/workspaces/WS01221143/projects/exp1"
 }

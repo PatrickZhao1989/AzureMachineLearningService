@@ -2,7 +2,7 @@
     "script": "train.py",
     "framework": "Python",
     "communicator": "None",
-    "target": "MLVM01",
+    "target": "Com-D11-2C-14RAM",
     "environment": {
         "python": {
             "userManagedDependencies": false,
@@ -10,7 +10,7 @@
                 "dependencies": [
                     "python=3.6.2",
                     "tensorflow=1.15",
-                    "numpy=1.16.2",
+                    "numpy=1.18",
                     {
                         "pip": [
                             "azureml-defaults"
